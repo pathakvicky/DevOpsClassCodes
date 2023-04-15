@@ -1,6 +1,6 @@
 ---
-- hosts: buildserver
-  remote_user: ansible
+- hosts: deployment_server
+ # remote_user: labsuser
   vars:
   - warName: Calculator-1.0-SNAPSHOT.jar
   - tomcat_version: 9.0.73
